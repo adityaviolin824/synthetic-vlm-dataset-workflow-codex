@@ -72,7 +72,8 @@ Before generating an image:
 2. Confirm no image, comment, or metadata filename is duplicated.
 3. Confirm the prompt describes the same visible condition.
 4. If replacing an image, record its hash and copy it to
-   `data/placeholder_image_backup/` without overwriting an existing backup.
+   the ignored local `data/placeholder_image_backup/` directory without
+   overwriting an existing backup.
 
 ### 4. Generate and Review
 

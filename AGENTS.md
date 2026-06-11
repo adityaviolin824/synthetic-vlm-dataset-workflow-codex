@@ -35,12 +35,15 @@ from a real inspection, institution, or location.
 data/
   sample_images/
   sample_comments/
-  placeholder_image_backup/
   metadata.csv
 
 scripts/
   generate_sample_dataset.py
 ```
+
+Local replacement work may use the ignored
+`data/placeholder_image_backup/` directory. It is not part of the published
+repository structure.
 
 Every image must have a matching comment file with the exact same filename
 stem.
@@ -150,6 +153,5 @@ After any dataset change, verify:
 2. Read `PLAN.md` before expanding or replacing dataset content.
 3. Work incrementally and validate each step.
 4. Do not overwrite backups or authoritative labels without explicit approval.
-5. Do not modify `image-gen-prompts-indian-ngo-school.md` unless explicitly
-   requested.
+5. Do not modify ignored local prompt inventories unless explicitly requested.
 6. Stop and ask when a requested image conflicts with its metadata or comment.

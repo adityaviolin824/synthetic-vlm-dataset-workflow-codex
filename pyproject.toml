@@ -1,0 +1,9 @@
+[project]
+name = "synthetic-image-text-dataset-workflow"
+version = "0.1.0"
+description = "A small, auditable synthetic image-text dataset workflow."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "pillow>=10.0",
+]

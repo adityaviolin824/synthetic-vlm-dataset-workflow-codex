@@ -18,7 +18,7 @@ The repository contains:
 * Matching plain-text comments.
 * A metadata CSV file.
 * A local placeholder image generator.
-* Prompt inventories used for image generation.
+* A prompt inventory used for image generation.
 * A simple plan for adding or replacing records safely.
 
 The main idea is that every record has three linked parts:
@@ -67,7 +67,8 @@ AGENTS.md
 PLAN.md
 README.md
 image-gen-prompts.md
-image-gen-prompts-indian-ngo-school.md
+pyproject.toml
+uv.lock
 
 scripts/
   generate_sample_dataset.py
@@ -76,7 +77,6 @@ data/
   metadata.csv
   sample_images/
   sample_comments/
-  placeholder_image_backup/
 ```
 
 ## Key Files
@@ -85,11 +85,11 @@ data/
 * `PLAN.md` contains the step-by-step process I followed.
 * `scripts/generate_sample_dataset.py` creates a small local placeholder dataset using Python and Pillow.
 * `image-gen-prompts.md` contains a generic prompt inventory.
-* `image-gen-prompts-indian-ngo-school.md` is an example of adapting the same records to a specific visual context.
+* `pyproject.toml` declares the Python version and Pillow dependency.
+* `uv.lock` pins the resolved dependency versions for reproducible installs.
 * `data/metadata.csv` connects each image to its category, scenario, issue label, summary, and comment file.
 * `data/sample_images/` contains the synthetic images.
 * `data/sample_comments/` contains matching text observations.
-* `data/placeholder_image_backup/` stores earlier placeholder versions.
 
 ## Metadata Format
 
@@ -197,7 +197,7 @@ This made the dataset easier to trust, even though it is still synthetic and sma
 
 The placeholder generator is useful because it gives a deterministic starting point.
 
-The prompt inventories are useful because they preserve the reasoning behind the generated images.
+The prompt inventory is useful because it preserves the reasoning behind the generated images.
 
 Together, they make the dataset easier to inspect and modify later.
 
@@ -207,10 +207,10 @@ Together, they make the dataset easier to inspect and modify later.
 * `uv` for local Python dependency management.
 * Pillow for local placeholder generation.
 
-Install Pillow with:
+Install the declared project dependencies with:
 
 ```bash
-uv add pillow
+uv sync
 ```
 
 Run a dry run:
