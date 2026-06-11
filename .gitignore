@@ -1,0 +1,57 @@
+# Protected domain-specific prompt inventory
+image-gen-prompts-indian-ngo-school.md
+
+# Original placeholder backups
+data/placeholder_image_backup/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*.json
+secrets*.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+.ipynb_checkpoints/
+.coverage
+coverage.xml
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Optional JavaScript tooling
+node_modules/
+.next/
+.vite/
+coverage/
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~
+
+# Logs, caches, and temporary output
+*.log
+*.tmp
+*.local
+.cache/
+tmp/
+temp/
+output/

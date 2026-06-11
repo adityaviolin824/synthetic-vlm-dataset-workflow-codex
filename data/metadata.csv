@@ -1,0 +1,28 @@
+filename,category,scenario_type,issue_present,issue_type,issue_summary,comment_file
+classroom_001.jpg,classroom,normal_no_issue,false,none,No visible issues.,classroom_001.txt
+classroom_002.jpg,classroom,minor_issue,true,clutter,Minor clutter is visible.,classroom_002.txt
+classroom_003.jpg,classroom,moderate_issue,true,poor_lighting,The area appears dimly lit.,classroom_003.txt
+washroom_001.jpg,washroom,normal_no_issue,false,none,No visible issues.,washroom_001.txt
+washroom_002.jpg,washroom,minor_issue,true,water_stain,Visible staining is present.,washroom_002.txt
+washroom_003.jpg,washroom,moderate_issue,true,broken_tile,Damaged tile is visible.,washroom_003.txt
+staircase_001.jpg,staircase,normal_no_issue,false,none,No visible issues.,staircase_001.txt
+staircase_002.jpg,staircase,minor_issue,true,poor_lighting,The area appears dimly lit.,staircase_002.txt
+staircase_003.jpg,staircase,moderate_issue,true,damaged_railing,A railing section appears damaged.,staircase_003.txt
+corridor_001.jpg,corridor,normal_no_issue,false,none,No visible issues.,corridor_001.txt
+corridor_002.jpg,corridor,minor_issue,true,dirty_floor,The floor has visible dirt marks.,corridor_002.txt
+corridor_003.jpg,corridor,moderate_issue,true,blocked_corridor,Part of the corridor is obstructed.,corridor_003.txt
+electrical_panel_001.jpg,electrical_panel,normal_no_issue,false,none,No visible issues.,electrical_panel_001.txt
+electrical_panel_002.jpg,electrical_panel,minor_issue,true,rust_mark,Rust staining is visible.,electrical_panel_002.txt
+electrical_panel_003.jpg,electrical_panel,moderate_issue,true,unsafe_electrical_panel,The electrical panel area is exposed.,electrical_panel_003.txt
+ceiling_001.jpg,ceiling,normal_no_issue,false,none,No visible issues.,ceiling_001.txt
+ceiling_002.jpg,ceiling,minor_issue,true,water_stain,Visible staining is present.,ceiling_002.txt
+ceiling_003.jpg,ceiling,moderate_issue,true,ceiling_crack,A crack is visible on the ceiling.,ceiling_003.txt
+exterior_wall_001.jpg,exterior_wall,normal_no_issue,false,none,No visible issues.,exterior_wall_001.txt
+exterior_wall_002.jpg,exterior_wall,minor_issue,true,damp_patch,A damp patch is visible on the wall.,exterior_wall_002.txt
+exterior_wall_003.jpg,exterior_wall,moderate_issue,true,wall_crack,A crack is visible on the wall.,exterior_wall_003.txt
+washroom_004.jpg,washroom,normal_no_issue,false,none,No visible issues.,washroom_004.txt
+washroom_005.jpg,washroom,minor_issue,true,dirty_floor,The floor has visible dirt marks.,washroom_005.txt
+washroom_006.jpg,washroom,normal_no_issue,false,none,No visible issues.,washroom_006.txt
+washroom_007.jpg,washroom,minor_issue,true,water_stain,Visible staining is present.,washroom_007.txt
+fire_extinguisher_001.jpg,fire_extinguisher,moderate_issue,true,unsafe_fire_extinguisher,The fire extinguisher is heavily corroded and visibly deteriorated.,fire_extinguisher_001.txt
+fire_extinguisher_002.jpg,fire_extinguisher,moderate_issue,true,unsafe_fire_extinguisher,The fire extinguisher has damaged and missing operating components.,fire_extinguisher_002.txt
